@@ -1,0 +1,22 @@
+*{
+    margin: 0!important;
+    padding:0!important;
+
+}
+header{
+    height: 100vh;
+    background-image: url('../assets/background-001.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header>nav>div>a>img{
+    border:1px solid black;
+    width: 10%;
+}
+
+header>nav>div>a{
+    border:1px solid black;
+    width: 100vw;
+}
