@@ -5,7 +5,7 @@
   --backgroundColor-LightBlue: #6ec1e4;
   --backgroundColor-Orange: #ecbe52;
   --backgroundColor-Red: #ed3f27;
-  --backgroundColor-Green:#70BF44;
+  --backgroundColor-Green: #70bf44;
 }
 * {
   margin: 0 !important;
@@ -96,49 +96,77 @@ header > nav > div > a {
   background-color: var(--backgroundColor-Red);
 }
 
-.resumen-nosotros{
-    border: 1px solid black;
+.resumen-nosotros {
+  border: 1px solid black;
+ 
 }
 
-.resumen-nosotros>div>h2{
-    color: #2F2F2F;
-    font-family: "Montserrat", Sans-serif;
-    font-size: 24px;
-    font-weight: 600;
-    text-transform: uppercase;
-    line-height: 1.54em;
-    letter-spacing: 4.32px;
+.resumen{
+  margin:4em 0!important;
 }
 
-.resumen-nosotros>div>p{
-    color: #797979;
-    font-family: "Montserrat", Sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.667em;
-    letter-spacing: -0.18px;
+.resumen-nosotros > div > h2 {
+  color: #2f2f2f;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.54em;
+  letter-spacing: 4.32px;
 }
 
-.contenedor-resumen{
-    border:1px solid black;
+.resumen-nosotros > div > p {
+  color: #797979;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.667em;
+  letter-spacing: -0.18px;
 }
 
-.seccion-uno{
-    background-color: var(--backgroundColor-Red);
-}
-.seccion-dos{
-    background-color: var(--backgroundColor-Green);
-}
-.seccion-tres{
-    background-color: var(--backgroundColor-LightBlue);
+.contenedor-resumen {
+  border: 1px solid black;
 }
 
-.foto-01{
-    background-image: url('../assets/gallery/galeria-001.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-height: 350px;
-   
+.seccion-uno {
+  background-color: var(--backgroundColor-Red);
+}
+.seccion-dos {
+  background-color: var(--backgroundColor-Green);
+}
+.seccion-tres {
+  background-color: var(--backgroundColor-LightBlue);
+}
 
+.imagen-galeria {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+}
+
+.foto-01 {
+  background-image: url("../assets/gallery/galeria-001.jpg");
+}
+
+.foto-02 {
+  background-image: url("../assets/gallery/galeria-002.jpg");
+}
+.foto-03 {
+  background-image: url("../assets/gallery/galeria-003.jpg");
+}
+.foto-04 {
+  background-image: url("../assets/gallery/galeria-004.jpg");
+}
+.foto-05 {
+  background-image: url("../assets/gallery/galeria-005.jpg");
+}
+.foto-06 {
+  background-image: url("../assets/gallery/galeria-006.jpg");
+}
+.foto-07 {
+  background-image: url("../assets/gallery/galeria-007.jpg");
+}
+.foto-08 {
+  background-image: url("../assets/gallery/galeria-008.jpg");
 }
