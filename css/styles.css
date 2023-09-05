@@ -1,52 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-:root{
-
-    --font-monserrat:'Montserrat', sans-serif;
+:root {
+  --font-monserrat: "Montserrat", sans-serif;
 }
-*{
-    margin: 0!important;
-    padding:0!important;
-
+* {
+  margin: 0 !important;
+  padding: 0 !important;
 }
-header{
-    height: 100vh;
-    background-image: url('../assets/background-001.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+header {
+  height: 100vh;
+  background-image: url("../assets/background-001.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-header>nav>div>a>img{
-    border:1px solid black;
-    width: 10%;
+header > nav > div > a > img {
+  border: 1px solid black;
+  width: 8%;
 }
 
-header>nav>div>a{
-    border:1px solid black;
-    width: 100vw;
+header > nav > div > a {
+  border: 1px solid black;
+  width: 100vw;
 }
 
-#barra-links{
-    font-family: var(--font-monserrat);
-    
-font-weight: bold;
+#barra-links {
+  font-family: var(--font-monserrat);
+
+  font-weight: bold;
 }
 
-#barra-links>div>div>ul>li>a{
-
-    color:#fff;
-    padding:0 1rem;
-    margin:0 1rem!important;
-    text-transform: uppercase;
-
+#barra-links > div > div > ul > li > a {
+  margin: 0 1rem !important;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.5em;
+  letter-spacing: 1.2px;
+  color: #ffffff;
 }
 
-#barra-links>div>div>ul{
-
- 
-    margin:0 auto!important;
-
-
+#barra-links > div > div > ul > li > a:hover {
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: #ffffff;
 }
 
+#barra-links > div > div > ul {
+  margin: 0 auto !important;
+}
+
+#barra-links {
+  border: 1px solid black;
+}
