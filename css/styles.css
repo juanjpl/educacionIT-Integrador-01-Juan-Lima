@@ -10,8 +10,18 @@
     --font-size-15rem: 1.5rem;
     
     --color-white-100: #fff;
+    --font-monserrat: "Montserrat", sans-serif;
+    --backgroundColor-LightBlue: #6ec1e4;
+    --backgroundColor-Orange: #ecbe52;
+    --backgroundColor-Red: #ed3f27;
+    --backgroundColor-Green: #70bf44;
 }
 
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: content-box;
+  }
 
 #logogc{
     width: 6em;
@@ -33,4 +43,162 @@ font-size: var(--font-size-2rem);
 text-transform:uppercase;
 margin:0rem 1rem;
 
+
+
+header {
+  height: 100vh;
+  background-image: url("../assets/background-001.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+header > nav > div > a > img {
+  width: 5%;
+  margin: 1em 0 !important;
+}
+
+header > nav > div > a {
+  width: 100vw;
+}
+
+#barra-links {
+  font-family: var(--font-monserrat);
+  padding: 1.2em !important ;
+  margin-top: 0.8em !important;
+  border-style: solid;
+  border-width: 1px 0px 1px 0px;
+  border-color: #ffffff;
+}
+
+#barra-links > div > div > ul > li > a {
+  margin: 0 1rem !important;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.5em;
+  letter-spacing: 1.2px;
+  color: #ffffff;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: transparent;
+  transition: all 0.5s ease-in;
+}
+
+#barra-links > div > div > ul > li > a:hover {
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: #ffffff;
+  transform: scale(1.2);
+  font-weight: 900;
+}
+
+#barra-links > div > div > ul {
+  margin: 0 auto !important;
+}
+
+.texto-header {
+  width: 50%;
+}
+
+.texto-header > h1 {
+  color: #ffffff;
+  font-family: var(--font-monserrat);
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 2em;
+  background-color: var(--backgroundColor-LightBlue);
+  margin: 2rem !important;
+  padding: 1em !important;
+}
+
+.texto-header > h2,
+.texto-header > p {
+  color: #ffffff;
+  font-family: var(--font-monserrat);
+  background-color: var(--backgroundColor-Orange);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5em;
+  margin: 2rem !important;
+  padding: 1em !important;
+}
+
+.texto-header > p {
+  background-color: var(--backgroundColor-Red);
+}
+
+.resumen-nosotros {
+  border: 1px solid black;
+ 
+}
+
+.resumen{
+  margin:4em 0!important;
+}
+
+.resumen-nosotros > div > h2 {
+  color: #2f2f2f;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.54em;
+  letter-spacing: 4.32px;
+}
+
+.resumen-nosotros > div > p {
+  color: #797979;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.667em;
+  letter-spacing: -0.18px;
+}
+
+.contenedor-resumen {
+  border: 1px solid black;
+}
+
+.seccion-uno {
+  background-color: var(--backgroundColor-Red);
+}
+.seccion-dos {
+  background-color: var(--backgroundColor-Green);
+}
+.seccion-tres {
+  background-color: var(--backgroundColor-LightBlue);
+}
+
+.imagen-galeria {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+}
+
+.foto-01 {
+  background-image: url("../assets/gallery/galeria-001.jpg");
+}
+
+.foto-02 {
+  background-image: url("../assets/gallery/galeria-002.jpg");
+}
+.foto-03 {
+  background-image: url("../assets/gallery/galeria-003.jpg");
+}
+.foto-04 {
+  background-image: url("../assets/gallery/galeria-004.jpg");
+}
+.foto-05 {
+  background-image: url("../assets/gallery/galeria-005.jpg");
+}
+.foto-06 {
+  background-image: url("../assets/gallery/galeria-006.jpg");
+}
+.foto-07 {
+  background-image: url("../assets/gallery/galeria-007.jpg");
+}
+.foto-08 {
+  background-image: url("../assets/gallery/galeria-008.jpg")}}
