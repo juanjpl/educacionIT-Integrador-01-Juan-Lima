@@ -1,0 +1,36 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ 
+
+:root{
+    --fuente-Roboto: 'Roboto', sans-serif;
+    --fuente-Monserrat: 'Montserrat', sans-serif;
+
+    --font-size-15rem: 1.5rem;
+    
+    --color-white-100: #fff;
+}
+
+
+#logogc{
+    width: 6em;
+}
+
+header{
+    height: 100vh;
+    background-image: url('../assets/backgound-xl.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.barra-navegacion-links>a{
+font-family: var(--fuente-Roboto);
+color:var(--color-white-100);
+font-size: var(--font-size-2rem);
+text-transform:uppercase;
+margin:0rem 1rem;
+
+}
