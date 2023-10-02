@@ -39,9 +39,9 @@ header > nav > div > a {
 }
 
 #barra-links > div > div > ul > li > a {
-  margin: 0 1rem !important;
+  margin: 0 1.2rem !important;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 1em;
   font-weight: 700;
   line-height: 1.5em;
   letter-spacing: 1.2px;
@@ -65,19 +65,24 @@ header > nav > div > a {
 }
 
 .texto-header {
-  width: 50%;
+  width: 35%;
+
+  margin: 4em !important;
+ 
 }
 
 .texto-header > h1 {
   color: #ffffff;
   font-family: var(--font-monserrat);
-  font-size: 35px;
+  font-size: 3.5em;
   font-weight: 700;
   text-transform: uppercase;
-  line-height: 2em;
+  line-height: 1.5em;
   background-color: var(--backgroundColor-LightBlue);
-  margin: 2rem !important;
-  padding: 1em !important;
+  margin: 1rem !important;
+  padding: 0.5em !important;
+ 
+
 }
 
 .texto-header > h2,
@@ -88,8 +93,9 @@ header > nav > div > a {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5em;
-  margin: 2rem !important;
+  margin: 1rem !important;
   padding: 1em !important;
+  
 }
 
 .texto-header > p {
@@ -102,8 +108,14 @@ header > nav > div > a {
 }
 
 .resumen{
-  margin:4em 0!important;
+  margin:4em auto!important;
+width: 50%;
+border: 1px solid black;
+
+
 }
+
+
 
 .resumen-nosotros > div > h2 {
   color: #2f2f2f;
@@ -113,6 +125,7 @@ header > nav > div > a {
   text-transform: uppercase;
   line-height: 1.54em;
   letter-spacing: 4.32px;
+  margin-bottom: 1em;
 }
 
 .resumen-nosotros > div > p {
