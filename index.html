@@ -9,22 +9,37 @@
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
     />
+
     <link rel="stylesheet" href="./css/styles.css" />
+
+    <!-- Owl Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="./owlcarousel/docs/assets/owlcarousel/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./owlcarousel/docs/assets/owlcarousel/assets/owl.theme.default.min.css"
+    />
+
+    <!-- javascript -->
+    <script src="./owlcarousel/docs/assets/vendors/jquery.min.js"></script>
+    <script src="./owlcarousel/docs/assets/owlcarousel/owl.carousel.js"></script>
 
     <title>Inicio</title>
   </head>
   <body>
     <header class="">
-      <nav class="navbar ">
+      <nav class="navbar">
         <div class="container-fluid text-center">
-          <a class="navbar-brand " href="#">
+          <a class="navbar-brand" href="#">
             <img src="./assets/logo-gc.png" alt="logo-gc" class=" " />
           </a>
         </div>
       </nav>
 
-      <nav id="barra-links" class="navbar navbar-expand-lg ">
-        <div class="container-fluid ">
+      <nav id="barra-links" class="navbar navbar-expand-lg">
+        <div class="container-fluid">
           <button
             class="navbar-toggler"
             type="button"
@@ -77,23 +92,23 @@
         <div class="resumen">
           <h2>Proyecto GC</h2>
           <p>
-            Los niños asisten a contra turno escolar en nuestro predio de González
-            Catán cada semana. El proyecto GC realiza un programa educativo con
-            actividades simultáneas como educación física, apoyo escolar,
-            recreación con talleres de arte, música e idiomas. Los niños también
-            participan de una merienda saludable. Las actividades están diseñadas
-            para estimular, enseñar y entrenar las capacidades cognitivas, las
-            relaciones de compañerismo con otros y el desarrollo físico.
+            Los niños asisten a contra turno escolar en nuestro predio de
+            González Catán cada semana. El proyecto GC realiza un programa
+            educativo con actividades simultáneas como educación física, apoyo
+            escolar, recreación con talleres de arte, música e idiomas. Los
+            niños también participan de una merienda saludable. Las actividades
+            están diseñadas para estimular, enseñar y entrenar las capacidades
+            cognitivas, las relaciones de compañerismo con otros y el desarrollo
+            físico.
           </p>
         </div>
-       
 
-        <div class="contenedor-secciones container-fluid ">
+        <div class="contenedor-secciones container-fluid">
           <div class="row col-12 col-md-12 col-lg-9 mx-auto">
             <div class="seccion-uno col-12 col-md-4">
-              <i class="fa-solid fa-book"></i>
+              <img src="./assets/iconos/icon2.webp" alt="icono segundo" />
               <h2>Actividad Pedagógica</h2>
-           
+
               <p>
                 1.0 Creemos que la educación es el medio para que cada persona
                 alcance su máximo potencial. Por eso en GC trabajamos para
@@ -104,12 +119,12 @@
               </p>
             </div>
             <div class="seccion-dos col-12 col-md-4">
-              <i class="fa-solid fa-chalkboard-user"></i>
+              <img src="./assets/iconos/icon3.webp" alt="icono tercero" />
               <h2>Deporte y Recreación</h2>
-            
+
               <p>
-                2.0 El deporte es una de las mejores escuelas de vida y tienen el
-                poder de transformar conductas negativas en positivas. Es el
+                2.0 El deporte es una de las mejores escuelas de vida y tienen
+                el poder de transformar conductas negativas en positivas. Es el
                 medio por el cual podemos estimular, enseñar y entrenar valores
                 tales como la lealtad y la cooperación, logrando objetivos en
                 equipo y a la vez desarrollando la creatividad, la organización,
@@ -117,9 +132,9 @@
               </p>
             </div>
             <div class="seccion-tres col-12 col-md-4">
-              <i class="fa-solid fa-bowl-food"></i>
+              <img src="./assets/iconos/icon1.webp" alt="icono primero" />
               <h2>Alimentación Saludable</h2>
-           
+
               <p>
                 3.0 La alimentación es necesaria, pero mucho más necesario es
                 alimentarse correctamente. La buena nutrición es fundamental
@@ -133,43 +148,40 @@
         </div>
 
         <div class="carrusel container fluid">
-          <h2>aqui va el carrousel</h2>
+          <!-- Set up your HTML -->
+<!-- Set up your HTML -->
+<div class="owl-carousel">
+  <div> <img src="./assets/gallery/galeria-001.jpg" alt="imagen carousel"> </div>
+  <div> <img src="./assets/gallery/galeria-001.jpg" alt="imagen carousel"> </div>
+  <div> <img src="./assets/gallery/galeria-001.jpg" alt="imagen carousel"> </div>
+  <div> <img src="./assets/gallery/galeria-001.jpg" alt="imagen carousel"> </div>
+  <div><img src="./assets/gallery/galeria-001.jpg" alt="imagen carousel"> </div>
+  <div> <img src="./assets/gallery/galeria-001.jpg" alt="imagen carousel"> </div>
+  <div> <img src="./assets/gallery/galeria-001.jpg" alt="imagen carousel"> </div>
+</div>
         </div>
 
         <div class="galeria-imagenes container-fluid">
-          <div class="row ">
-            <div class=" imagen-galeria foto-01 col-12 col-md-4 col-lg-3">
-            
-            </div>
-            <div class="imagen-galeria foto-02 col-12 col-md-4 col-lg-3">
-         
-            </div>
-            <div class="imagen-galeria foto-03 col-12 col-md-4 col-lg-3">
-              
-            </div>
-            <div class="imagen-galeria foto-04 col-12 col-md-4 col-lg-3">
-             
-            </div>
+          <div class="row">
+            <div class="imagen-galeria foto-01 col-12 col-md-4 col-lg-3"></div>
+            <div class="imagen-galeria foto-02 col-12 col-md-4 col-lg-3"></div>
+            <div class="imagen-galeria foto-03 col-12 col-md-4 col-lg-3"></div>
+            <div class="imagen-galeria foto-04 col-12 col-md-4 col-lg-3"></div>
           </div>
-          <div class="row ">
-            <div class=" imagen-galeria foto-05 col-12 col-md-4 col-lg-3">
-            
-            </div>
-            <div class="imagen-galeria foto-06 col-12 col-md-4 col-lg-3">
-         
-            </div>
-            <div class="imagen-galeria foto-07 col-12 col-md-4 col-lg-3">
-              
-            </div>
-            <div class="imagen-galeria foto-08 col-12 col-md-4 col-lg-3">
-             
-            </div>
+          <div class="row">
+            <div class="imagen-galeria foto-05 col-12 col-md-4 col-lg-3"></div>
+            <div class="imagen-galeria foto-06 col-12 col-md-4 col-lg-3"></div>
+            <div class="imagen-galeria foto-07 col-12 col-md-4 col-lg-3"></div>
+            <div class="imagen-galeria foto-08 col-12 col-md-4 col-lg-3"></div>
           </div>
         </div>
       </div>
     </main>
 
-    <script src="https://kit.fontawesome.com/862ac02261.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/862ac02261.js"
+      crossorigin="anonymous"
+    ></script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
@@ -186,5 +198,9 @@
       integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
       crossorigin="anonymous"
     ></script>
+
+    <!-- vendors -->
+    <script src="./owlcarousel/docs/assets/vendors/highlight.js"></script>
+    <script src="./owlcarousel/docs/assets/js/app.js"></script>
   </body>
 </html>
