@@ -69,9 +69,6 @@ header > nav > div > a {
 .texto-header {
   width: max-content;
   margin-top: 10em !important;
-
-  
-  
 }
 
 .texto-header > h1 {
@@ -86,52 +83,46 @@ header > nav > div > a {
   padding: 0.5em !important;
 }
 
-.texto-header > h2,
-.texto-header > p {
-  color: #ffffff;
-  font-family: var(--font-monserrat);
-  background-color: var(--backgroundColor-Orange);
+.resumen {
+  margin: 8em auto !important;
+}
+
+.resumen-texto>h2{
+  padding-bottom: 1em !important;
+  color: #2F2F2F;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.2em;
+  letter-spacing: 0px;
+}
+
+.resumen-texto>p{
+  color: #797979;
   font-size: 18px;
   font-weight: 400;
-  line-height: 1.5em;
-  margin: 1rem !important;
-  padding: 1em !important;
+  line-height: 1.667em;
+  letter-spacing: -0.18px;
 }
 
-.texto-header > p {
-  background-color: var(--backgroundColor-Red);
-}
-
-
-
-.resumen {
-  margin: 5em auto !important;
-  width: 60%;
-}
-
-.resumen > h2,
-.staff > h2 {
+.resumen > h2{
   color: #2f2f2f;
-  font-size: 24px;
+  font-size: 36px;
   font-weight: 600;
   text-transform: uppercase;
   line-height: 1.54em;
   letter-spacing: 4.32px;
   padding: 1em !important;
+  margin-bottom: 1em !important;
 }
 
-.resumen > p,
-.staff > p {
+.resumen > p {
   color: #797979;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.8em;
 }
 
-.contenedor-resumen {
-  border: 1px solid black;
-  color: white;
-}
+
 
 .seccion-uno {
   background-color: var(--backgroundColor-Red);
@@ -150,16 +141,7 @@ header > nav > div > a {
   padding: 54px 36px 48px 49px !important;
 }
 
-.seccion-uno > h2,
-.seccion-dos > h2,
-.seccion-tres > h2 {
-  font-size: 18px;
-  font-weight: 600;
-  text-transform: uppercase;
-  line-height: 1.33em;
-  letter-spacing: -0.6px;
-  margin: 1em auto !important;
-}
+
 
 .seccion-uno > p,
 .seccion-dos > p,
@@ -177,96 +159,52 @@ header > nav > div > a {
 
 
 
-.owl-carousel > div > img {
-  width: 20% !important;
-}
 
-.staff{
-  padding:8em 0!important;
-  margin-top:4em!important;
-
-background-color: #6ec1e4;
-}
-.galeria-staff > img {
-  width: 25%;
-}
-
-.staff > p {
-  width: 80%;
-  font-size: 22px;
-  margin: 2em auto !important;
-  color:white;
-}
-
-.staff > h2 {
-
-  color:white;
+/*==============================================*/
+.seccion>h2{
+  font-size: 1.5em;
+  font-weight: 800;
+  letter-spacing: 3px;
 }
 
 /*==============================================*/
-.comunication>div{
-
-height: 350px;
-}
-
-.datos{
+.banner-contactanos{
+  background-color: #ED3F27;
   color:white;
+  text-align: left;
+  padding:4em 0 !important;
 }
 
-.datos>h2{
-  margin: 0.5em 0!important;
+.banner-texto-contactanos>h2{
+
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.2em;
+  letter-spacing: 0px;
+  margin-bottom: 1em !important;
 }
 
-.datos>p{
-font-size: 1.5em;
+.banner-contactanos>p{
+
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    letter-spacing: 0px;
 }
 
-.seccion-one{
-  background-color: #70bf44;
+.banner-contactanos>div>a{
+  height: fit-content;
+  padding: 1em 2em !important;
+  font-weight: 600;
+transition: all 0.5s ease-in-out;
 }
 
-.seccion-two{
-  background-color:#ecbe52;
+.banner-contactanos>div>a:hover{
+ color:white;
+ border: 1px solid white;
+ background-color: transparent;
 }
-
-.seccion-three{
-  background-color:#ed3f27;
-}
-
-
-.imagen-galeria {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 350px;
-}
-
-.foto-01 {
-  background-image: url("../assets/gallery/galeria-001.jpg");
-}
-
-.foto-02 {
-  background-image: url("../assets/gallery/galeria-002.jpg");
-}
-.foto-03 {
-  background-image: url("../assets/gallery/galeria-003.jpg");
-}
-.foto-04 {
-  background-image: url("../assets/gallery/galeria-004.jpg");
-}
-.foto-05 {
-  background-image: url("../assets/gallery/galeria-005.jpg");
-}
-.foto-06 {
-  background-image: url("../assets/gallery/galeria-006.jpg");
-}
-.foto-07 {
-  background-image: url("../assets/gallery/galeria-007.jpg");
-}
-.foto-08 {
-  background-image: url("../assets/gallery/galeria-008.jpg");
-}
-
 
 /*==============================================*/
 
