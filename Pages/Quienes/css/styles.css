@@ -110,6 +110,7 @@ header > nav > div > a {
 }
 
 .texto-actividad{
+
   padding:1rem!important;
 
 }
@@ -189,7 +190,6 @@ header > nav > div > a {
 .banner-imagen>img{
   width: 100%;
 }
-
 /*==============================================*/
 .banner-contactanos{
   background-color: #ED3F27;
