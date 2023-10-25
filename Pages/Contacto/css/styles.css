@@ -9,13 +9,12 @@
 }
 
 * {
-  margin: 0 ;
-  padding: 0 ;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   font-family: var(--font-monserrat);
 }
 header {
-
   height: 60vh;
   background-image: url("../assets/imagen-banner.webp");
   background-position: center;
@@ -70,9 +69,6 @@ header > nav > div > a {
 .texto-header {
   width: max-content;
   margin-top: 10em !important;
-
-  
-  
 }
 
 .texto-header > h1 {
@@ -86,29 +82,132 @@ header > nav > div > a {
   padding: 0.5em !important;
 }
 
-.seccion-colaborar{
+.seccion-colaborar {
   background-image: url(../assets/img8.jpg);
   height: 50vh;
   background-position: center;
   text-align: left;
 }
 
+/*========================================*/
+/*      Datos Contacto                    */
+/*========================================*/
+.seccion-contacto {
+  padding: 8em 0;
+}
+.contacto {
+  padding: 2em 0;
+}
+
+.contacto-icon > i {
+  color: #ed3f27;
+  font-size: 3em;
+  margin-right: 0.5em;
+}
+
+.contacto-texto > h2 {
+  color: #2f2f2f;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.2em;
+  letter-spacing: 3.1px;
+  text-align: left;
+}
+
+.contacto-texto > h3 {
+  color: #797979;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.6em;
+  letter-spacing: -0.24px;
+}
+
+/*========================================*/
+/*      Datos Contacto                    */
+/*========================================*/
+
+.seccion-datos{
+  margin:4em 0;
+}
+.datos-gris{
+  background-color: #42474C;
+  text-align: left;
+
+}
+
+.datos-gris-container{
+  padding:3em;
+  
+}
+
+.datos-gris-container>h2{
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.2em;
+  letter-spacing: 0px;
+}
+
+.datos-gris-container>h3{
+  color: #FFFFFF;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.2em;
+  letter-spacing: 0px;
+  margin:1em 0;
+}
 
 
+.datos-icon>i{
+  color: #ED3F27;
+  font-size: 28px;
+  padding:0.3em;
+}
+
+
+.datos-texto>h3{
+
+  color: #F8F8F7;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 1.33em;
+  letter-spacing: 3.1px;
+  margin-left:1em;
+}
+
+.datos-detalle{
+  margin:1em 0;
+}
+
+/*========================================*/
+/*      Datos Contacto                    */
+/*========================================*/
+
+form{
+
+  margin:1em;
+  padding:4em;
+  text-align: left;
+}
+
+
+/*========================================*/
+/*      Datos Contacto                    */
+/*========================================*/
 .resumen {
   margin: 8em auto !important;
-
 }
 
-.texto-actividad{
-  padding:1rem!important;
-
+.texto-actividad {
+  padding: 1rem !important;
 }
-
 
 .texto-actividad > h2 {
-  margin:0.5em 0 !important;
-  color: #2F2F2F;
+  margin: 0.5em 0 !important;
+  color: #2f2f2f;
   font-size: 36px;
   font-weight: 500;
   line-height: 1.2em;
@@ -116,15 +215,14 @@ header > nav > div > a {
   text-align: left;
 }
 
-.texto-actividad>h3{
- 
+.texto-actividad > h3 {
   text-align: left;
-  color: #2F2F2F;
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-    line-height: 1.2em;
-    letter-spacing: 0px;
+  color: #2f2f2f;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.2em;
+  letter-spacing: 0px;
 }
 
 .texto-actividad > p {
@@ -136,90 +234,85 @@ header > nav > div > a {
   text-align: justify;
 }
 
-.iconos-nosotros{
+.iconos-nosotros {
   padding-top: 2em !important;
 }
 
-
-.iconos-nosotros>a{
+.iconos-nosotros > a {
   text-decoration: none;
-  color: #2F2F2F;
+  color: #2f2f2f;
   font-size: 1.5em;
-  margin:0 0.3em !important;
+  margin: 0 0.3em !important;
 }
 
 /*==============================================*/
 
-
-.banner-nosotros{
+.banner-nosotros {
   background-color: #eb7060;
 }
 
-.banner-imagen>img{
+.banner-imagen > img {
   width: 100%;
 }
 
-.banner-texto{
+.banner-texto {
   padding: 2em !important;
   color: white;
   text-align: left;
 }
 
-.banner-texto>p{
-  margin:2em 0 !important;
+.banner-texto > p {
+  margin: 2em 0 !important;
 }
 
-.banner-texto>a{
+.banner-texto > a {
   background-color: #f7f7f7 !important;
-  padding:0.8em 1.5em !important;
-  border:1px solid transparent !important;
+  padding: 0.8em 1.5em !important;
+  border: 1px solid transparent !important;
   font-weight: 600;
   text-transform: capitalize;
   color: black !important;
   transition: all 0.5s ease-in-out;
 }
 
-.banner-texto>a:hover{
+.banner-texto > a:hover {
   background-color: transparent !important;
-  border:1px solid white !important;
+  border: 1px solid white !important;
 
   color: white !important;
-
 }
 
 /*==============================================*/
 
-.banner-colaborar>h2{
+.banner-colaborar > h2 {
   text-transform: capitalize;
 }
 
-.banner-colaborar>p{
-  margin:2em 0 !important;
+.banner-colaborar > p {
+  margin: 2em 0 !important;
 }
 
-.banner-colaborar>a{
+.banner-colaborar > a {
   background-color: #70bf44 !important;
-  padding:0.8em 1.5em !important;
+  padding: 0.8em 1.5em !important;
   font-weight: 600;
   text-transform: capitalize;
   color: white !important;
   transition: all 0.5s ease-in-out;
 }
 
-.banner-colaborar>a:hover{
+.banner-colaborar > a:hover {
   background-color: #379d00 !important;
-
 }
 /*==============================================*/
-.banner-contactanos{
-  background-color: #ED3F27;
-  color:white;
+.banner-contactanos {
+  background-color: #ed3f27;
+  color: white;
   text-align: left;
-  padding:4em 0 !important;
+  padding: 4em 0 !important;
 }
 
-.banner-texto-contactanos>h2{
-
+.banner-texto-contactanos > h2 {
   font-size: 32px;
   font-weight: 500;
   line-height: 1.2em;
@@ -227,83 +320,77 @@ header > nav > div > a {
   margin-bottom: 1em !important;
 }
 
-.banner-contactanos>p{
-
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-    line-height: 1.2em;
-    letter-spacing: 0px;
+.banner-contactanos > p {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.2em;
+  letter-spacing: 0px;
 }
 
-.banner-contactanos>div>a{
+.banner-contactanos > div > a {
   height: fit-content;
   padding: 1em 2em !important;
   font-weight: 600;
-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
-.banner-contactanos>div>a:hover{
- color:white;
- border: 1px solid white;
- background-color: transparent;
+.banner-contactanos > div > a:hover {
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
 }
 
 /*==============================================*/
 
-.footer{
+.footer {
   background-color: #495052;
   text-align: left;
   height: max-content;
 }
 
-.foot{
-  padding: 3em!important;
+.foot {
+  padding: 3em !important;
 }
 
-.footer>.foot>h2{
-  color: #B3BBC1;
+.footer > .foot > h2 {
+  color: #b3bbc1;
   text-align: center;
   font-size: 24px;
   font-weight: 600;
   text-transform: uppercase;
   line-height: 1.33em;
   letter-spacing: 3.04px;
-  margin-bottom: 2em!important;
+  margin-bottom: 2em !important;
 }
 
-.footer>.foot>p{
-  color: #B3BBC1;
+.footer > .foot > p {
+  color: #b3bbc1;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.74em;
   letter-spacing: -0.14px;
 }
 
-
 .mapouter,
-.nav-redes{
-  margin: 1em auto!important;
- 
+.nav-redes {
+  margin: 1em auto !important;
 }
 
-.nav-redes{
-  color: #B3BBC1;
+.nav-redes {
+  color: #b3bbc1;
   font-size: 1em;
   display: flex;
   justify-content: center;
-
 }
 
-.nav-redes>i{
-
-margin:auto 0.5em!important;
-font-size: 32px;
+.nav-redes > i {
+  margin: auto 0.5em !important;
+  font-size: 32px;
 }
 
-.gmap_canvas>iframe{
+.gmap_canvas > iframe {
   width: 100%;
   height: 100%;
-  margin: 0 auto!important;
-
+  margin: 0 auto !important;
 }
