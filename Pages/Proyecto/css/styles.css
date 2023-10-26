@@ -2,17 +2,51 @@
 
 :root {
   --font-monserrat: "Montserrat", sans-serif;
-  --backgroundColor-LightBlue: #6ec1e4;
+  --backgroundColor-LightBlue1: #6ec1e4;
+  --backgroundColor-LightBlue2: #1982c4;
   --backgroundColor-Orange: #ecbe52;
-  --backgroundColor-Red: #ed3f27;
-  --backgroundColor-Green: #70bf44;
+  --backgroundColor-Yellow: #ffca3a;
+  --backgroundColor-Red1: #ed3f27;
+  --backgroundColor-Red2: #ff595e;
+  --backgroundColor-Green1: #70bf44;
+  --backgroundColor-Green2:#8ac926;
+  --backgroundColor-Violet1:#6a4c93;
 }
 * {
-  margin: 0 !important;
-  padding: 0 !important;
+  margin: 0 ;
+  padding: 0 ;
   box-sizing: border-box;
   font-family: var(--font-monserrat);
 }
+
+.back-light-blue1{
+  background-color: var(--backgroundColor-LightBlue1);
+}
+
+.back-light-blue2{
+  background-color: var(--backgroundColor-LightBlue2);
+}
+.back-light-yellow{
+  background-color: var(--backgroundColor-Orange);
+}
+
+.back-light-red1{
+  background-color: var(--backgroundColor-Red1);
+}
+
+.back-light-orange{
+  background-color: var(--backgroundColor-Red2);
+}
+
+.back-light-green1{
+  background-color: var(--backgroundColor-Green1);
+}
+
+.back-light-green2{
+  background-color: var(--backgroundColor-Green2);
+}
+
+
 header {
 
   height: 60vh;
@@ -78,7 +112,7 @@ header > nav > div > a {
   font-weight: 700;
   text-transform: uppercase;
   line-height: 1.5em;
-  background-color: var(--backgroundColor-LightBlue);
+  background-color: var(--backgroundColor-Green1);
   margin: 1rem !important;
   padding: 0.5em !important;
 }
@@ -102,6 +136,7 @@ header > nav > div > a {
   font-weight: 400;
   line-height: 1.667em;
   letter-spacing: -0.18px;
+  text-align: left;
 }
 
 .resumen > h2{
@@ -124,15 +159,7 @@ header > nav > div > a {
 
 
 
-.seccion-uno {
-  background-color: var(--backgroundColor-Red);
-}
-.seccion-dos {
-  background-color: var(--backgroundColor-Green);
-}
-.seccion-tres {
-  background-color: var(--backgroundColor-LightBlue);
-}
+
 
 .seccion-uno,
 .seccion-dos,
@@ -165,6 +192,7 @@ header > nav > div > a {
   font-size: 1.5em;
   font-weight: 800;
   letter-spacing: 3px;
+
 }
 
 /*==============================================*/
@@ -266,3 +294,69 @@ font-size: 32px;
   margin: 0 auto!important;
 
 }
+
+
+/*==============================================*/
+
+.banner-nosotros{
+  background-color:#ecbe52;
+  color:white;
+  text-align: left;
+  padding:5em 0 !important;
+ }
+ 
+ 
+ 
+ .banner-texto{
+   padding:3em !important;
+ }
+ 
+ .banner-texto>h2{
+   margin-bottom: 1em !important;
+   font-weight: bolder;
+ }
+ 
+ .banner-texto>a{
+   background-color: #ed3f27 !important;
+   border: none;
+   padding: 1em 2em !important;
+   margin-top:2em !important;
+ }
+ 
+ .banner-imagen>img{
+   width: 100%;
+ }
+ /*==============================================*/
+ /*==============================================*/
+
+.banner-colaborar>h2{
+  text-transform: uppercase;
+}
+
+.banner-colaborar>p{
+  margin:2em 0 !important;
+}
+
+.banner-colaborar>a{
+  background-color: #70bf44 !important;
+  padding:0.8em 1.5em !important;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: white !important;
+  transition: all 0.5s ease-in-out;
+}
+
+.banner-colaborar>a:hover{
+  background-color: #379d00 !important;
+
+}
+
+.seccion-colaborar{
+  background-image: url(/assets/img8.jpg);
+  height: 50vh;
+  background-position: center;
+  text-align: left;
+}
+
+
+/*==============================================*/

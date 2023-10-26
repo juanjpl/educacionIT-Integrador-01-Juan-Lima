@@ -98,9 +98,7 @@ header > nav > div > a {
   background-color: var(--backgroundColor-Red);
 }
 
-.resumen-nosotros {
-  border: 1px solid black;
-}
+
 
 .resumen {
   margin: 5em auto !important;
@@ -265,6 +263,38 @@ font-size: 1.5em;
   background-image: url("../assets/gallery/galeria-008.jpg");
 }
 
+/**/
+
+/*==============================================*/
+
+.banner-colaborar>h2{
+  text-transform: uppercase;
+}
+
+.banner-colaborar>p{
+  margin:2em 0 !important;
+}
+
+.banner-colaborar>a{
+  background-color: #70bf44 !important;
+  padding:0.8em 1.5em !important;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: white !important;
+  transition: all 0.5s ease-in-out;
+}
+
+.banner-colaborar>a:hover{
+  background-color: #379d00 !important;
+
+}
+
+.seccion-colaborar{
+  background-image: url(/assets/img8.jpg);
+  height: 50vh;
+  background-position: center;
+  text-align: left;
+}
 
 
 /*==============================================*/
@@ -306,63 +336,60 @@ transition: all 0.5s ease-in-out;
  background-color: transparent;
 }
 
-/*==============================================*/
 
-.footer{
+/*========================================*/
+/*      Footer                            */
+/*========================================*/
+
+
+.footer {
   background-color: #495052;
   text-align: left;
-
   height: max-content;
 }
 
-.foot{
-
-  padding: 3em!important;
+.foot {
+  padding: 3em !important;
 }
 
-.footer>.foot>h2{
-  color: #B3BBC1;
+.footer > .foot > h2 {
+  color: #b3bbc1;
   text-align: center;
   font-size: 24px;
   font-weight: 600;
   text-transform: uppercase;
   line-height: 1.33em;
   letter-spacing: 3.04px;
-  margin-bottom: 2em!important;
+  margin-bottom: 2em !important;
 }
 
-.footer>.foot>p{
-  color: #B3BBC1;
+.footer > .foot > p {
+  color: #b3bbc1;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.74em;
   letter-spacing: -0.14px;
 }
 
-
 .mapouter,
-.nav-redes{
-  margin: 1em auto!important;
- 
+.nav-redes {
+  margin: 1em auto !important;
 }
 
-.nav-redes{
-  color: #B3BBC1;
+.nav-redes {
+  color: #b3bbc1;
   font-size: 1em;
   display: flex;
   justify-content: center;
-
 }
 
-.nav-redes>i{
-
-margin:auto 0.5em!important;
-font-size: 32px;
+.nav-redes > i {
+  margin: auto 0.5em !important;
+  font-size: 32px;
 }
 
-.gmap_canvas>iframe{
+.gmap_canvas > iframe {
   width: 100%;
   height: 100%;
-  margin: 0 auto!important;
-
+  margin: 0 auto !important;
 }

@@ -32,8 +32,8 @@
     <header >
       <nav class="navbar">
         <div class="container-fluid text-center">
-          <a class="navbar-brand" href="#">
-            <img src="./assets/logo-gc.png" alt="logo-gc" class=" " />
+          <a class="navbar-brand" href="./index.html">
+            <img src="./assets/logo-gc.png" alt="logo-gc"  />
           </a>
         </div>
       </nav>
@@ -54,7 +54,7 @@
           <div class="collapse navbar-collapse text-center" id="navbarNav">
             <ul class="navbar-nav text-center">
               <li class="nav-item">
-                <a class="nav-link" href="./Pages/Proyecto/proyecto.html">Quienes somos</a>
+                <a class="nav-link" href="./Pages/Quienes/QuienesSomos.html">Quienes somos</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./Pages/Proyecto/proyecto.html">Proyecto</a>
@@ -63,13 +63,13 @@
                 <a class="nav-link" href="./Pages/Actividades/Actividades.html">Actividades</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../Colaborar/Colaborar.html">Colaborar</a>
+                <a class="nav-link" href="./Pages/Colaborar/Colaborar.html">Colaborar</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../Inscripciones/Inscripciones.html">Inscripciones</a>
+                <a class="nav-link" href="./Pages/Inscripciones/Inscripciones.html">Inscripciones</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../Contacto/Contacto.html">Contacto</a>
+                <a class="nav-link" href="./Pages/Contacto/Contacto.html">Contacto</a>
               </li>
             </ul>
           </div>
@@ -241,17 +241,89 @@
             <div class="imagen-galeria foto-08 col-12 col-md-4 col-lg-3"></div>
           </div>
         </div>
+        <div class="row seccion-colaborar d-flex justify-content-center">
+          <div class="col-8 d-flex">
+            <div class="col-6 banner-colaborar my-auto">
+              <h2>Apoya a esta gran causa</h2>
+              <p>
+                Tu aporte es importante para seguir generando impacto en la vida
+                de todos los niños que participan del Proyecto GC. Podes sumarte
+                como Padrino becando a un niño.
+              </p>
+              <a
+               
+                class="btn btn-light btn-lg active my-auto"
+                role="button"
+                aria-pressed="true"
+                data-bs-toggle="modal" 
+                data-bs-target="#exampleModal"
+                >Quiero donar</a
+              >
+            
+               
+              <!-- Modal -->
+              <div class="modal fade  " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                  <div class="modal-content ">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Donar</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <form  action="https://formspree.io/f/mbjvwzky"
+                      method="POST">
+                       
+                      
+                        <div class="mb-3">
+                          <label for="inputName" class="form-label">Nombre</label>
+                          <input type="text" name="nombre" class="form-control" id="inputName" required>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                          <input type="email" name="email" class="form-control" id="exampleInputEmail1"  required=>
+                          
+                        </div>
+                        <div class="mb-3">
+                          <label for="telefono" class="form-label">Telefono</label>
+                          <input type="number" name="telefono" class="form-control" id="telefono" required>
+                        </div>
+                        <div class="mb-3">
+                          <label for="edad" class="form-label">Edad</label>
+                          <input type="number" name="edad" class="form-control" id="edad" required>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleFormControlTextarea1" class="form-label">Comentario</label>
+                          <textarea class="form-control" name="comentario" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                        </div>
+                       
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+                    </div>
+                 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      
+    
+         
+      
+
+        </div>
+
 
         <div class="row banner-contactanos d-flex justify-content-center contactanos">
           <div class="col-5 banner-texto-contactanos">
-            <h2>Contactanos para mayor imformaciòn</h2>
+            <h2>Contactanos para mayor informaciòn</h2>
             <p>
               Todos las mensajes son respondidos por nuestros representantes. No dejes de consultarnos.
             </p>
           </div>
           <div class="col-3 d-flex justify-content-center">
             <a
-              href="#"
+              href="./Pages/Contacto/Contacto.html"
               class="btn btn-light btn-lg active my-auto"
               role="button"
               aria-pressed="true"
@@ -260,42 +332,40 @@
           </div>
         </div>
 
-        <div class="container-fluid">
-          <div class="row footer">
-            <div class="foot col-12 col-md-4">
-              <h2>SOBRE NOSOTROS</h2>
-              <p>
-                GC es una organización sin fines de lucro que trabaja para
-                mejorar calidad de vida y educativa de niños, niñas y
-                adolescentes en la ciudad de González Catán
-              </p>
+        <div class="row footer d-flex justify-content-center ">
+          <div class="foot col-12 col-md-3 my-5">
+            <h2>SOBRE NOSOTROS</h2>
+            <p>
+              GC es una organización sin fines de lucro que trabaja para mejorar
+              calidad de vida y educativa de niños, niñas y adolescentes en la
+              ciudad de González Catán
+            </p>
+          </div>
+          <div class="foot col-12 col-md-3 my-5">
+            <h2>CONTACTANOS</h2>
+            <p>Email: info@proyectogc.org</p>
+            <p>Tel: 11 7102 6887</p>
+            <p>Manzoni 1360, González Catán</p>
+            <p>Buenos Aires Provincia</p>
+          </div>
+          <div class="foot redes col-12 col-md-3 my-5">
+            <div class="nav-redes">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-x-twitter"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-youtube"></i>
             </div>
-            <div class="foot col-12 col-md-4">
-              <h2>CONTACTANOS</h2>
-              <p>Email:   info@proyectogc.org</p>
-              <p>Tel:   11 7102 6887</p>
-              <p>Manzoni 1360, González Catán</p>
-              <p>Buenos Aires Provincia</p>
-            </div>
-            <div class="foot redes col-12 col-md-4">
-              <div class="nav-redes">
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-x-twitter"></i>
-                <i class="fa-brands fa-linkedin"></i>
-                <i class="fa-brands fa-youtube"></i>
-              </div>
 
-              <div class="mapouter">
-                <div class="gmap_canvas">
-                  <iframe
-                    id="gmap_canvas"
-                    src="https://maps.google.com/maps?q=Manzoni+1360%2C+Gonz%C3%A1lez+Cat%C3%A1n&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                    frameborder="0"
-                    scrolling="no"
-                    marginheight="0"
-                    marginwidth="0"
-                  ></iframe>
-                </div>
+            <div class="mapouter">
+              <div class="gmap_canvas">
+                <iframe
+                  id="gmap_canvas"
+                  src="https://maps.google.com/maps?q=Manzoni+1360%2C+Gonz%C3%A1lez+Cat%C3%A1n&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                  frameborder="0"
+                  scrolling="no"
+                  marginheight="0"
+                  marginwidth="0"
+                ></iframe>
               </div>
             </div>
           </div>

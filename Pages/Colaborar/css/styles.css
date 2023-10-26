@@ -190,7 +190,7 @@ header > nav > div > a {
 /*==============================================*/
 
 .banner-colaborar>h2{
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 .banner-colaborar>p{
@@ -219,7 +219,7 @@ header > nav > div > a {
 }
 
 .banner-texto-contactanos>h2{
-
+text-transform: uppercase;
   font-size: 32px;
   font-weight: 500;
   line-height: 1.2em;
@@ -307,3 +307,36 @@ font-size: 32px;
   margin: 0 auto!important;
 
 }
+
+
+/*==============================================*/
+
+.banner-nosotros{
+  background-color:#ecbe52;
+  color:white;
+  text-align: left;
+  padding:5em 0 !important;
+ }
+ 
+ 
+ 
+ .banner-texto{
+   padding:3em !important;
+ }
+ 
+ .banner-texto>h2{
+   margin-bottom: 1em !important;
+   font-weight: bolder;
+ }
+ 
+ .banner-texto>a{
+   background-color: #ed3f27 !important;
+   border: none;
+   padding: 1em 2em !important;
+   margin-top:2em !important;
+ }
+ 
+ .banner-imagen>img{
+   width: 100%;
+ }
+ /*==============================================*/
